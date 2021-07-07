@@ -1,0 +1,6 @@
+article p:nth-child(2) {
+  font-size: large;
+}
+article P:nth-last-child(1) {
+  background-color: #999;
+}

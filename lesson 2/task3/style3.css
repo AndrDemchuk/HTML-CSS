@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid;
+  width: 139px;
+  padding: 1px 0px;
+}
+
+.container dl {
+  margin: 0;
+}
+.container dd {
+  margin-left: 16px;
+}

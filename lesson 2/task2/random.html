@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <style>
+      td {
+        border: solid 5px black;
+        width: 30px;
+        height: 30px;
+      }
+      .nob {
+        border: 0px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="nob"></td>
+        <td class="nob"></td>
+        <td class="nob"></td>
+        <td class="nob"></td>
+        <td class="nob"></td>
+        <td class="nob"></td>
+        <td class="nob"></td>
+        <td class="nob"></td>
+        <td class="nob"></td>
+      </tr>
+      <tr id="tr0">
+        <td colspan="2" rowspan="3"></td>
+        <td colspan="6" rowspan="6" style="background-color: red"></td>
+        <td class="nob"></td>
+      </tr>
+      <tr id="tr1">
+        <td class="nob"></td>
+      </tr>
+      <tr id="tr2">
+        <td class="nob"></td>
+      </tr>
+      <tr id="tr3">
+        <td colspan="2" rowspan="3"></td>
+        <td class="nob"></td>
+      </tr>
+      <tr id="tr4">
+        <td class="nob"></td>
+      </tr>
+      <tr id="tr5">
+        <td class="nob"></td>
+      </tr>
+      <tr id="tr6">
+        <td colspan="2" rowspan="2" style="background-color: blue"></td>
+        <td colspan="5" rowspan="2"></td>
+        <td></td>
+        <td class="nob"></td>
+      </tr>
+      <tr id="tr7">
+        <td style="background-color: yellow"></td>
+        <td class="nob"></td>
+      </tr>
+    </table>
+  </body>
+</html>

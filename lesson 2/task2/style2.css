@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+}
+
+.nob {
+  border: none;
+}
+
+td {
+  border: 8px solid #000;
+  width: 30px;
+  height: 30px;
+}
+
+.yellow_box {
+  background-color: #fffa69;
+}
+
+.orange_box {
+  background-color: #ff5b2d;
+}
+
+.black_box {
+  background-color: #000000;
+}
+
+.blue_box {
+  background-color: blue;
+}

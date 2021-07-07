@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  color: #a23bd1;
+}
+.pager div {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 14px;
+  border: 2px solid #ededed;
+  border-radius: 8px;
+}
+.pager div:nth-child(1)::before,
+.pager div:nth-child(2)::before {
+  content: "«";
+  padding-right: 4px;
+  font-size: 16px;
+  vertical-align: 1px;
+  font-weight: lighter;
+}
+.pager div:nth-last-child(1)::after,
+.pager div:nth-last-child(2)::after {
+  content: "»";
+  padding-left: 4px;
+  font-size: 16px;
+  vertical-align: 1px;
+  font-weight: lighter;
+}
+.pager div:nth-last-child(1),
+.pager div:nth-last-child(2) {
+  margin-left: 20px;
+  border: none;
+}
+.pager div:nth-child(1),
+.pager div:nth-child(2) {
+  margin-right: 20px;
+  border: none;
+}
+.pager div:nth-child(5) {
+  border: none;
+  vertical-align: -13px;
+}
+.pager div:hover {
+  background: #a23bd1;
+  color: white;
+  cursor: pointer;
+}
+.pager div:nth-child(5):hover,
+.pager div:nth-child(1):hover,
+.pager div:nth-child(2):hover,
+.pager div:nth-last-child(1),
+.pager div:nth-last-child(2) {
+  background: none;
+  color: #a23bd1;
+  cursor: pointer;
+}

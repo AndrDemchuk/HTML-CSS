@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 400px;
+  background: url(task2.png) no-repeat;
+  margin: 0 auto;
+  width: 1400px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #3170a8;
+  font-size: 41px;
+  margin: 48px 41px 42px 1px;
+}
+.orange_text {
+  color: #ee8129;
+}
+.feedbacks {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+.comment {
+  background: #f7f7f7;
+  width: 363px;
+  height: auto;
+  margin-left: 26px;
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.between {
+  width: 44px;
+  height: auto;
+  background: transparent;
+}
+.comment::before {
+  content: "";
+  position: absolute;
+  left: -16px;
+  bottom: 36px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 20px solid white;
+}
+.upper {
+  color: #3070a8;
+  font-size: 14px;
+  font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  margin: 11px 21px 1px 13px;
+  padding-bottom: 8px;
+  border-bottom: 2px dotted #666666;
+}
+.lower {
+  color: #666666;
+  font-size: 14px;
+  padding: 7px 32px 1px 13px;
+  line-height: 21px;
+}
+.author::before {
+  content: "- ";
+}

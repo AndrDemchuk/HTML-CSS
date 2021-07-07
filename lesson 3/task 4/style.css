@@ -1,0 +1,13 @@
+ul li a[href*="ya"] {
+  color: #f70;
+}
+ul li a[href*="google"] {
+  color: #666;
+}
+
+ul li:nth-child(5) a:after {
+  content: "⇱";
+  display: inline-block;
+  margin-left: 5px;
+  transform: scaleX(-1);
+}

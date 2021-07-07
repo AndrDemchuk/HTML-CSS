@@ -1,0 +1,130 @@
+.element {
+  position: relative;
+  left: -56px;
+  top: 41px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  margin: 30px auto;
+  background-color: white;
+  width: 294px;
+  height: 443px;
+  border: 2px solid #e8eaec;
+}
+
+#element2 {
+  left: 74px;
+}
+#element2 .title {
+  background: #1cb79a;
+}
+.title {
+  padding-top: 21px;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 42px;
+  background: #37c2d3;
+  border-radius: 4px 4px 0px 0px;
+}
+.second_title {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-top: 19px;
+  font-size: 24px;
+  padding-left: 3px;
+}
+.price {
+  font-size: 70px;
+  padding-top: 11px;
+  padding-left: 90px;
+  position: relative;
+  letter-spacing: -3px;
+}
+.price:before {
+  content: "$";
+  position: absolute;
+  font-size: 21px;
+  left: 75px;
+  top: 18px;
+}
+.price:after {
+  letter-spacing: normal;
+  content: "Monthly";
+  position: absolute;
+  font-size: 17px;
+  top: 70px;
+  right: 61px;
+}
+.menu {
+  margin-top: 24px;
+  padding-left: 18px;
+  list-style: none;
+  position: relative;
+  margin-bottom: 12px;
+}
+.menu li {
+  background: #cccccc;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 62px;
+  border-bottom: 2px solid white;
+  margin-right: 16px;
+  color: #8f939b;
+}
+.menu li::before {
+  margin-top: 3px;
+  content: "";
+  background: url(icon1.png) no-repeat;
+  display: inline-block;
+  position: absolute;
+  background-size: 14px;
+  width: 17px;
+  height: 17px;
+  left: 50px;
+}
+.menu li:nth-child(1)::before {
+  margin-top: 4px;
+}
+.menu li:nth-child(3)::before {
+  margin-top: 1px;
+}
+.menu li:nth-child(4)::before {
+  margin-top: 0px;
+}
+
+.menu li:nth-child(odd) {
+  background: #eef5fc;
+}
+.menu li:nth-child(even) {
+  background: #f5f5f6;
+}
+.button1 {
+  background: #3371a6;
+  font-size: 15px;
+  border: none;
+  padding: 10px 13px 9px 4px;
+  margin: 0px 17px 0px 20px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 0px 0px #16436a;
+}
+.button1:hover {
+  cursor: pointer;
+  background: #37c2d3;
+  box-shadow: 0px 2px 0px #085f6d;
+}
+.button1 a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
